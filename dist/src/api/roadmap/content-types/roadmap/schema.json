@@ -1,0 +1,22 @@
+{
+    "kind": "collectionType",
+    "collectionName": "roadmaps",
+    "info": {
+        "singularName": "roadmap",
+        "pluralName": "roadmaps",
+        "displayName": "Roadmap",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "items": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        }
+    }
+}
