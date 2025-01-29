@@ -489,7 +489,7 @@ export interface ApiServiceService extends Struct.CollectionTypeSchema {
     name: Schema.Attribute.String;
     price: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
-    services_items: Schema.Attribute.JSON;
+    services_item: Schema.Attribute.JSON;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
